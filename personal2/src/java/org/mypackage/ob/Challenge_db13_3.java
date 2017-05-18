@@ -39,13 +39,6 @@ public class Challenge_db13_3 extends HttpServlet {
         PreparedStatement db_st = null;
         ResultSet db_data = null;
         
-        //request.setCharacterEncoding("UTF-8");
-        //String gStockID = request.getParameter("textStockID");
-        //String gStockName = request.getParameter("textStockName");
-        //String gStockPrice = request.getParameter("textStockPrice");
-        //String gStockNum = request.getParameter("textStockNum");
-        //String gStockMaker = request.getParameter("textStockMaker");
-        
         try {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
